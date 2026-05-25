@@ -1,6 +1,6 @@
 # ============================================
 # app.py — Interfaz Streamlit
-# Planta de Concentración de Mosto
+# Proceso de Concentración de Mosto
 # ============================================
 import streamlit as st
 from modelo import calcular_proceso
@@ -125,7 +125,7 @@ with col_logo:
 with col_titulo:
     st.markdown("""
     <h1 style='margin-bottom: 0; color: #1a2e4a;'>
-        Planta de Concentración de Mosto
+        Proceso de Concentración de Mosto
     </h1>
     <p style='color: #2c5282; font-size: 16px; margin-top: 4px;'>
         Benemérita Universidad Autónoma de Puebla &nbsp;|&nbsp;
