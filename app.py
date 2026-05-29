@@ -10,7 +10,7 @@ from modelo import calcular_proceso
 
 # ---- Configuración de la página ----
 st.set_page_config(
-    page_title="Concentración de Jugos por Evaporación Flash | FIQ BUAP",
+    page_title="Proceso de Concentración de Jugos por Evaporación Flash (Doble Efecto) | FIQ BUAP",
     page_icon=None,
     layout="wide"
 )
@@ -78,7 +78,7 @@ with col_logo:
 with col_titulo:
     st.markdown("""
         <h1 style='margin-bottom: 0; color: #1a2e4a;'>
-            Concentración de Jugos por Evaporación Flash a Baja Presión
+            Proceso de Concentración de Jugos por Evaporación Flash a Baja Presión (Doble Efecto)
         </h1>
         <p style='color: #2c5282; font-size: 16px; margin-top: 4px;'>
             Benemérita Universidad Autónoma de Puebla &nbsp;|&nbsp;
